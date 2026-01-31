@@ -63,13 +63,13 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmeanpn@deno/mod.js';
+import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmeanpn@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmeanpn@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmeanpn@v0.1.0-deno/mod.js';
 ```
 
 #### nanmeanpn( N, x, strideX )
@@ -163,7 +163,7 @@ var v = nanmeanpn.ndarray( 5, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmeanpn@deno/mod.js';
+import nanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmeanpn@v0.1.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
